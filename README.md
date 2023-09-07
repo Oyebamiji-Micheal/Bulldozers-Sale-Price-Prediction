@@ -71,7 +71,20 @@ Other insights from the EDA which include the effect of machine size on price ca
 <a id="model"></a>
 <h2>Models and Evaluation Metrics</h2>
 <p align="justify">
-The models used in the <a href="https://github.com/Oyebamiji-Micheal/Bulldozers-Sale-Price-Prediction/blob/main/predicting_bulldozers_price.ipynb">notebook</a> include regularized regression models such Ridge, Lasso and Elastic Net. Also I have used ensemble and gradient boosting algorithms. Below is the performance comparison of the different models. 
+The models used in the <a href="https://github.com/Oyebamiji-Micheal/Bulldozers-Sale-Price-Prediction/blob/main/predicting_bulldozers_price.ipynb">notebook</a> include regularized regression models such Ridge, Lasso and Elastic Net. Also I have used ensemble and gradient boosting algorithms.
+</p>
+
+- <strong>Regularized Regression:</strong>
+>- Ridge Regression: Adds L2 regularization to the linear regression model to prevent overfitting.
+>- Lasso Regression: Adds L1 regularization to linear regression, which can lead to feature selection by setting some coefficients to zero.
+>- Elastic Net: Combines L1 and L2 regularization to balance their effects.
+
+- <strong>Random Forest Regression</strong>: An ensemble method that combines multiple decision trees to reduce overfitting and improve prediction accuracy.
+
+- <p align="justify"><strong>Gradient Boosting</strong>: Techniques like Gradient Boosting, XGBoost, and LightGBM build a strong predictive model by combining the predictions of multiple weaker models (typically decision trees).</p>
+
+
+Below is the performance comparison of the different models. 
 
 <table border="1" cellpadding="5">
   <thead>
